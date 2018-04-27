@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mJd-PW-rRU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="KFl-XD-ncH">
+            <objects>
+                <navigationController id="mJd-PW-rRU" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fpX-3h-1eI">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9Fh-4A-tZm" kind="relationship" relationship="rootViewController" id="wTH-1l-Kdx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eFt-hq-9nV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-776" y="171"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ilk-oR-bWg">
+            <objects>
+                <viewController id="9Fh-4A-tZm" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s7v-Hc-eps">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uq6-Ph-xsQ">
+                                <rect key="frame" x="161" y="284" width="53" height="30"/>
+                                <state key="normal" title="Present"/>
+                                <connections>
+                                    <action selector="presentBtnClick:" destination="9Fh-4A-tZm" eventType="touchUpInside" id="XTP-aB-Hpi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbm-ti-2ry">
+                                <rect key="frame" x="170" y="214" width="35" height="30"/>
+                                <state key="normal" title="Push"/>
+                                <connections>
+                                    <action selector="pushBtnClick:" destination="9Fh-4A-tZm" eventType="touchUpInside" id="hMP-Gq-0lF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vbm-ti-2ry" firstAttribute="centerX" secondItem="s7v-Hc-eps" secondAttribute="centerX" id="cbT-Jd-fA7"/>
+                            <constraint firstItem="uq6-Ph-xsQ" firstAttribute="top" secondItem="Vbm-ti-2ry" secondAttribute="bottom" constant="40" id="lll-rd-ThQ"/>
+                            <constraint firstItem="Vbm-ti-2ry" firstAttribute="top" secondItem="Hnh-6m-Ann" secondAttribute="top" constant="150" id="nXx-R4-7tY"/>
+                            <constraint firstItem="uq6-Ph-xsQ" firstAttribute="centerX" secondItem="s7v-Hc-eps" secondAttribute="centerX" id="ncG-M3-KRC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Hnh-6m-Ann"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="K6K-al-qgy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="USb-0F-P6B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49" y="170"/>
+        </scene>
+    </scenes>
+</document>

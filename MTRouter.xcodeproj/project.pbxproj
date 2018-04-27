@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6432684C2092B02600443DB1 /* MTRouterNoFoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6432684B2092B02600443DB1 /* MTRouterNoFoundController.m */; };
+		64E73F0A208CA3F500100300 /* MTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EF770B208C7E6B008860A9 /* MTRouter.m */; };
+		64E73F0C208CA3F500100300 /* MTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EF770E208C7E7D008860A9 /* MTRequest.m */; };
+		64E73F0E208CA3F500100300 /* MTRouterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EF7714208C7EA7008860A9 /* MTRouterModel.m */; };
+		64E73F10208CA3F500100300 /* MTURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EF7717208C8989008860A9 /* MTURL.m */; };
+		64E73F12208CA3F500100300 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EF76F4208C7E2C008860A9 /* AppDelegate.m */; };
+		64E73F14208CA3F500100300 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EF76F7208C7E2C008860A9 /* ViewController.m */; };
+		64E73F16208CA3F500100300 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EF771A208C97A8008860A9 /* FirstViewController.m */; };
+		64E73F18208CA3F500100300 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EF771D208C97F8008860A9 /* SecondViewController.m */; };
+		64E73F1A208CA3F500100300 /* Initialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EF7720208C9833008860A9 /* Initialization.m */; };
+		64E73F1B208CA3F500100300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EF7702208C7E2E008860A9 /* main.m */; };
+		64EF76FB208C7E2C008860A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64EF76F9208C7E2C008860A9 /* Main.storyboard */; };
+		64EF76FD208C7E2E008860A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64EF76FC208C7E2E008860A9 /* Assets.xcassets */; };
+		64EF7700208C7E2E008860A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64EF76FE208C7E2E008860A9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6432684A2092B02600443DB1 /* MTRouterNoFoundController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRouterNoFoundController.h; sourceTree = "<group>"; };
+		6432684B2092B02600443DB1 /* MTRouterNoFoundController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRouterNoFoundController.m; sourceTree = "<group>"; };
+		64EF76F0208C7E2C008860A9 /* MTRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EF76F3208C7E2C008860A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64EF76F4208C7E2C008860A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64EF76F6208C7E2C008860A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64EF76F7208C7E2C008860A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64EF76FA208C7E2C008860A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64EF76FC208C7E2E008860A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64EF76FF208C7E2E008860A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64EF7701208C7E2E008860A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64EF7702208C7E2E008860A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64EF770A208C7E6B008860A9 /* MTRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRouter.h; sourceTree = "<group>"; };
+		64EF770B208C7E6B008860A9 /* MTRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRouter.m; sourceTree = "<group>"; };
+		64EF770D208C7E7D008860A9 /* MTRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRequest.h; sourceTree = "<group>"; };
+		64EF770E208C7E7D008860A9 /* MTRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRequest.m; sourceTree = "<group>"; };
+		64EF7713208C7EA7008860A9 /* MTRouterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRouterModel.h; sourceTree = "<group>"; };
+		64EF7714208C7EA7008860A9 /* MTRouterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRouterModel.m; sourceTree = "<group>"; };
+		64EF7716208C8989008860A9 /* MTURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTURL.h; sourceTree = "<group>"; };
+		64EF7717208C8989008860A9 /* MTURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTURL.m; sourceTree = "<group>"; };
+		64EF7719208C97A8008860A9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		64EF771A208C97A8008860A9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		64EF771C208C97F8008860A9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		64EF771D208C97F8008860A9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		64EF771F208C9833008860A9 /* Initialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Initialization.h; sourceTree = "<group>"; };
+		64EF7720208C9833008860A9 /* Initialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Initialization.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64EF76ED208C7E2C008860A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64EF76E7208C7E2C008860A9 = {
+			isa = PBXGroup;
+			children = (
+				64EF76F2208C7E2C008860A9 /* MTRouter */,
+				64EF76F1208C7E2C008860A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64EF76F1208C7E2C008860A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64EF76F0208C7E2C008860A9 /* MTRouter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64EF76F2208C7E2C008860A9 /* MTRouter */ = {
+			isa = PBXGroup;
+			children = (
+				64EF7709208C7E5C008860A9 /* MTRouter */,
+				64EF76F3208C7E2C008860A9 /* AppDelegate.h */,
+				64EF76F4208C7E2C008860A9 /* AppDelegate.m */,
+				64EF76F6208C7E2C008860A9 /* ViewController.h */,
+				64EF76F7208C7E2C008860A9 /* ViewController.m */,
+				64EF7719208C97A8008860A9 /* FirstViewController.h */,
+				64EF771A208C97A8008860A9 /* FirstViewController.m */,
+				64EF771C208C97F8008860A9 /* SecondViewController.h */,
+				64EF771D208C97F8008860A9 /* SecondViewController.m */,
+				64EF771F208C9833008860A9 /* Initialization.h */,
+				64EF7720208C9833008860A9 /* Initialization.m */,
+				64EF76F9208C7E2C008860A9 /* Main.storyboard */,
+				64EF76FC208C7E2E008860A9 /* Assets.xcassets */,
+				64EF76FE208C7E2E008860A9 /* LaunchScreen.storyboard */,
+				64EF7701208C7E2E008860A9 /* Info.plist */,
+				64EF7702208C7E2E008860A9 /* main.m */,
+			);
+			path = MTRouter;
+			sourceTree = "<group>";
+		};
+		64EF7709208C7E5C008860A9 /* MTRouter */ = {
+			isa = PBXGroup;
+			children = (
+				64EF770A208C7E6B008860A9 /* MTRouter.h */,
+				64EF770B208C7E6B008860A9 /* MTRouter.m */,
+				64EF770D208C7E7D008860A9 /* MTRequest.h */,
+				64EF770E208C7E7D008860A9 /* MTRequest.m */,
+				64EF7713208C7EA7008860A9 /* MTRouterModel.h */,
+				64EF7714208C7EA7008860A9 /* MTRouterModel.m */,
+				64EF7716208C8989008860A9 /* MTURL.h */,
+				64EF7717208C8989008860A9 /* MTURL.m */,
+				6432684A2092B02600443DB1 /* MTRouterNoFoundController.h */,
+				6432684B2092B02600443DB1 /* MTRouterNoFoundController.m */,
+			);
+			path = MTRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64EF76EF208C7E2C008860A9 /* MTRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EF7706208C7E2E008860A9 /* Build configuration list for PBXNativeTarget "MTRouter" */;
+			buildPhases = (
+				64EF76EC208C7E2C008860A9 /* Sources */,
+				64EF76ED208C7E2C008860A9 /* Frameworks */,
+				64EF76EE208C7E2C008860A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTRouter;
+			productName = MTRouter;
+			productReference = 64EF76F0208C7E2C008860A9 /* MTRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64EF76E8208C7E2C008860A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = meitu;
+				TargetAttributes = {
+					64EF76EF208C7E2C008860A9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 64EF76EB208C7E2C008860A9 /* Build configuration list for PBXProject "MTRouter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64EF76E7208C7E2C008860A9;
+			productRefGroup = 64EF76F1208C7E2C008860A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64EF76EF208C7E2C008860A9 /* MTRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64EF76EE208C7E2C008860A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64EF7700208C7E2E008860A9 /* LaunchScreen.storyboard in Resources */,
+				64EF76FD208C7E2E008860A9 /* Assets.xcassets in Resources */,
+				64EF76FB208C7E2C008860A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64EF76EC208C7E2C008860A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6432684C2092B02600443DB1 /* MTRouterNoFoundController.m in Sources */,
+				64E73F0A208CA3F500100300 /* MTRouter.m in Sources */,
+				64E73F0C208CA3F500100300 /* MTRequest.m in Sources */,
+				64E73F0E208CA3F500100300 /* MTRouterModel.m in Sources */,
+				64E73F10208CA3F500100300 /* MTURL.m in Sources */,
+				64E73F12208CA3F500100300 /* AppDelegate.m in Sources */,
+				64E73F14208CA3F500100300 /* ViewController.m in Sources */,
+				64E73F16208CA3F500100300 /* FirstViewController.m in Sources */,
+				64E73F18208CA3F500100300 /* SecondViewController.m in Sources */,
+				64E73F1A208CA3F500100300 /* Initialization.m in Sources */,
+				64E73F1B208CA3F500100300 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64EF76F9208C7E2C008860A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64EF76FA208C7E2C008860A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64EF76FE208C7E2E008860A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64EF76FF208C7E2E008860A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64EF7704208C7E2E008860A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64EF7705208C7E2E008860A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64EF7707208C7E2E008860A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RM28RBP83N;
+				INFOPLIST_FILE = MTRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.MTRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64EF7708208C7E2E008860A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RM28RBP83N;
+				INFOPLIST_FILE = MTRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.MTRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64EF76EB208C7E2C008860A9 /* Build configuration list for PBXProject "MTRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EF7704208C7E2E008860A9 /* Debug */,
+				64EF7705208C7E2E008860A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EF7706208C7E2E008860A9 /* Build configuration list for PBXNativeTarget "MTRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EF7707208C7E2E008860A9 /* Debug */,
+				64EF7708208C7E2E008860A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64EF76E8208C7E2C008860A9 /* Project object */;
+}
