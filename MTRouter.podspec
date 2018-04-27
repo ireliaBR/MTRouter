@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/ireliaBR/MTRouter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '672575302@qq.com' => '672575302@qq.com' }
+  s.author           = { 'irelia' => '672575302@qq.com' }
   s.source           = { :git => 'https://github.com/ireliaBR/MTRouter.git', :tag => s.version.to_s }
 
 
